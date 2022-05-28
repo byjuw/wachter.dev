@@ -1,0 +1,18 @@
+{
+  "name": "wachter.dev",
+  "version": "1.0.0",
+  "description": "Julien Wachter's personal website",
+  "author": "Julien Wachter <julien@wachter.dev>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/byjuw/wachter.dev"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.9.9"
+  }
+}
