@@ -6,7 +6,7 @@ const wording = {
 
     Outside of programming, I enjoy badminton, <a href="https://www.worldcubeassociation.org/persons/2009WACH02" target="_blank">Rubik's cube</a> and have recently started playing chess.
 
-    I am discreet on the Internet, but you can find me on <a href="https://github.com/byjuw" target="_blank">Github</a> and <a href="https://twitter.com/WachterJulien" target="_blank">Twitter</a>.
+    I am discreet on the Internet, but you can find me on <a href="https://github.com/byjuw" target="_blank">Github</a>, <a href="https://twitter.com/WachterJulien" target="_blank">Twitter</a> and <a href="https://www.linkedin.com/in/julien-wachter/" target="_blank">LinkedIn</a>.
 
     You can also contact me by e-mail at julien(at this domain).
     My resume (french) is available <a href="/resume.pdf" target="_blank">here</a>.`,
@@ -22,7 +22,7 @@ const wording = {
 
     En dehors du développement, j'aime le badminton, le <a href="https://www.worldcubeassociation.org/persons/2009WACH02" target="_blank">Rubik's cube</a> et j'ai récemment commencé à jouer aux échecs.
 
-    Je suis discret sur Internet, mais vous pouvez me trouver sur <a href="https://github.com/byjuw" target="_blank">Github</a> et <a href="https://twitter.com/WachterJulien" target="_blank">Twitter</a>.
+    Je suis discret sur Internet, mais vous pouvez me trouver sur <a href="https://github.com/byjuw" target="_blank">Github</a>, <a href="https://twitter.com/WachterJulien" target="_blank">Twitter</a> et <a href="https://www.linkedin.com/in/julien-wachter/" target="_blank">LinkedIn</a>.
 
     Vous pouvez également me contacter par e-mail à julien(arobase ce domaine).
     Mon cv est disponible <a href="/resume.pdf" target="_blank">ici</a>.`,
