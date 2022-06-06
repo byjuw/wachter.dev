@@ -61,7 +61,7 @@ const type = () => {
     tempTypeSpeed = 2000
     // Name animation
     document.querySelector('.text-animate.name').classList.add('start')
-  } else if (position === 331) {
+  } else if (position === 336) {
     // Profession animation
     document.querySelector('.text-animate.profession').classList.add('start')
   }

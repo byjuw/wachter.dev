@@ -1,6 +1,6 @@
 const wording = {
   en: {
-    description: `I am a french developer. Passionate, I like to create and to learn new things.
+    description: `I am a french lead developer. Passionate, I like to create and to learn new things.
 
     Since 5 years I work for <a href="https://sopheos.com/" target="_blank">Sopheos</a>, a French company building high traffic web and mobile applications.
 
@@ -12,11 +12,11 @@ const wording = {
     My resume (french) is available <a href="/resume.pdf" target="_blank">here</a>.`,
     lang: 'English',
     portrait: 'picture of Julien Wachter',
-    profession: 'Developer',
+    profession: 'Lead developer',
     theme: 'Theme',
   },
   fr: {
-    description: `Je suis un développeur français. Passionné, j'aime créer et apprendre de nouvelles choses.
+    description: `Je suis un lead développeur français. Passionné, j'aime créer et apprendre de nouvelles choses.
 
     Depuis 5 ans, je travaille pour <a href="https://sopheos.com/" target="_blank">Sopheos</a>, une entreprise française qui développe des applications web et mobile à fort trafic.
 
@@ -28,7 +28,7 @@ const wording = {
     Mon cv est disponible <a href="/resume.pdf" target="_blank">ici</a>.`,
     lang: 'Français',
     portrait: 'photo de Julien Wachter',
-    profession: 'Développeur',
+    profession: 'Lead développeur',
     theme: 'Thème',
   },
 }
