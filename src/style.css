@@ -177,7 +177,7 @@ section h1 {
 
 @keyframes portrait-border-progress {
   100% {
-    stroke-dashoffset: 0px;
+    stroke-dashoffset: 0;
   }
 }
 
@@ -190,8 +190,8 @@ section h1 {
   stroke-width: 3px;
   stroke: hsl(var(--hue-primary), 100%, 97%);
   /* 302 = ~ pi * 2 * 48; (48 is the radius of the circle) */
-  stroke-dasharray: 302px;
-  stroke-dashoffset: 302px;
+  stroke-dasharray: 302;
+  stroke-dashoffset: 302;
   transform: rotate(-90deg);
 }
 
