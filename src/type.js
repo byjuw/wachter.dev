@@ -55,8 +55,9 @@ const type = () => {
   // Start presentation animation based on the content position.
   if (position === 150) {
     // Portrait animation
-    tempTypeSpeed = 3000
+    tempTypeSpeed = 4000
     document.querySelector('.portrait-animate').classList.add('start')
+    document.querySelector('.portrait-border-animate').classList.add('start')
   } else if (position === 240) {
     tempTypeSpeed = 2000
     // Name animation

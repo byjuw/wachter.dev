@@ -157,28 +157,46 @@ section h1 {
   }
 }
 
-@keyframes portrait-border {
-  70% {
-    border-radius: 50%;
-  }
-
-  99% {
-    border: 5px solid transparent;
-  }
-  100% {
-    border: 5px solid hsl(var(--hue-primary), 100%, 97%);
-    border-radius: 50%;
-  }
+.portrait-container {
+  position: relative;
 }
 
 .portrait-animate {
-  position: relative;
-  border: 5px solid transparent;
   transform: translateX(100vw);
 }
 
+@keyframes portrait-border-radius {
+  100% {
+    border-radius: 50%;
+  }
+}
+
 .portrait-animate.start {
-  animation: slide-in ease-in-out 1s forwards, portrait-border 1s ease-in-out 1s forwards;
+  animation: slide-in ease-in-out 1s forwards, portrait-border-radius 1s ease-in-out 1s forwards;
+}
+
+@keyframes portrait-border-progress {
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+.portrait-border-animate {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  width: 192px;
+  fill: none;
+  stroke-width: 3px;
+  stroke: hsl(var(--hue-primary), 100%, 97%);
+  /* 302 = ~ pi * 2 * 48; (48 is the radius of the circle) */
+  stroke-dasharray: 302px;
+  stroke-dashoffset: 302px;
+  transform: rotate(-90deg);
+}
+
+.portrait-border-animate.start {
+  animation: portrait-border-progress 1s ease-in-out 2.3s forwards;
 }
 
 .text-animate {

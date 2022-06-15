@@ -43,11 +43,16 @@
         </div>
 
         <div class="presentation-container">
-          <picture>
-            <source srcset="portrait.avif" type="image/avif">
-            <img class="portrait-animate" src="portrait.jpeg" alt="Julien Wachter" height="180" width="180"
+          <div class="portrait-container">
+            <picture>
+              <source srcset="portrait.avif" type="image/avif">
+              <img class="portrait-animate" src="portrait.jpeg" alt="Julien Wachter" height="180" width="180"
               decoding="async">
-          </picture>
+            </picture>
+            <svg class="portrait-border-animate" viewBox="0 0 100 100">
+              <circle cx="50" cy="50" r="48"/>
+            </svg>
+          </div>
           <h1 class="text-animate name">Julien Wachter</h1>
           <h2 class="text-animate profession" data-t="profession">Lead developer</h2>
         </div>
