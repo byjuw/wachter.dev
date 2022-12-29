@@ -1,6 +1,6 @@
 import wording from './wording'
 
-// update wording in the page
+// Update wording in the page
 const updateWording = (newLang) => {
   if (newLang === lang) return
 
@@ -20,7 +20,7 @@ if (Object.keys(wording).includes(navLang)) {
   updateWording(navLang)
 }
 
-// handle lang change requested by user
+// Handle lang change requested by user
 document.querySelector('.lang').addEventListener('click', () => {
   const availablesLang = Object.keys(wording)
   updateWording(availablesLang[(availablesLang.indexOf(lang) + 1) % availablesLang.length])

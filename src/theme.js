@@ -1,4 +1,4 @@
-// handle theme change requested by user
+// Handle theme change requested by user
 document.querySelector('.theme').addEventListener('click', () => {
   // Generate a new random hue.
   const currentHue = getComputedStyle(document.documentElement).getPropertyValue('--hue-primary') ?? 190

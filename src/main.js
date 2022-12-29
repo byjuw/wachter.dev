@@ -3,5 +3,5 @@ import './lang'
 import './theme'
 import './type'
 
-// copyright year
+// Copyright year
 document.querySelector('.copyright').innerText = new Date().getFullYear()
