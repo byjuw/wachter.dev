@@ -250,6 +250,12 @@ article a:hover {
   }
 }
 
+.prompt {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 footer {
   margin: 1rem;
   text-align: center;
